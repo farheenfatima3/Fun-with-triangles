@@ -2,6 +2,7 @@
 body{
     font-family: 'Roboto Slab', serif;
     background:var(--more-color);
+    margin:0px;
 }
 :root{
     --secondary-color:#D1FAE5;
@@ -54,4 +55,16 @@ a{
 }
 h1{
     color:var(--primary-color)
+}
+
+@media(max-width:700px) and (min-width:350px){
+    
+    ul{
+        display:flex;
+
+    }
+    li{
+        flex:1 0 auto;
+    }
+
 }
